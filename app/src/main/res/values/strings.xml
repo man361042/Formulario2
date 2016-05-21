@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Formulario</string>
+    <string name="texto_boton_siguiente">Siguiente</string>
+    <string name="texto_boton_fecha">Seleccionar Fecha</string>
+    <string name="texto_nombre">Nombre </string>//text view
+    <string name="texto_telefono">Telefono </string>
+    <string name="texto_email">Email </string>
+    <string name="texto_descripcion">Descripcion </string>
+    <string name="texto_edad">]Cumpleaños  </string>//text view
+//strings de activity Detalle
+    <string name="texto_boton_regresar">Regresar y Editar Datos</string>
+</resources>

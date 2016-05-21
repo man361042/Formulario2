@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.manuel.formulario2.Detalle">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tvNombreDetalle"
+    android:hint="@string/texto_nombre"
+    android:textSize="@dimen/texto_tamaño"
+    />
+
+    <TextView
+        android:id="@+id/tvRecibirNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/texto_nombre"
+        android:textSize="@dimen/texto_tamaño"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTelefonoDetalle"
+        android:hint="@string/texto_telefono"
+        android:textSize="@dimen/texto_tamaño"
+        />
+    <TextView
+        android:id="@+id/tvRecibirTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/texto_telefono"
+        android:textSize="@dimen/texto_tamaño"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvEmailDetalle"
+        android:hint="@string/texto_email"
+        android:textSize="@dimen/texto_tamaño"
+        />
+    <TextView
+        android:id="@+id/tvRecibirEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/texto_email"
+        android:textSize="@dimen/texto_tamaño"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvEdadDetalle"
+        android:hint="@string/texto_edad"
+        android:textSize="@dimen/texto_tamaño"
+        />
+    <TextView
+        android:id="@+id/tvRecibirEdad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/texto_edad"
+        android:textSize="@dimen/texto_tamaño"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDescripcionDetalle"
+        android:hint="@string/texto_descripcion"
+        android:textSize="@dimen/texto_tamaño"
+        />
+    <TextView
+        android:id="@+id/tvRecibirDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/texto_descripcion"
+        android:textSize="@dimen/texto_tamaño"
+        />
+
+
+    <Button
+        android:id="@+id/btRegresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_boton_regresar"
+        android:theme="@style/MiBotonRaised"
+        android:textSize="@dimen/texto_tamaño"
+
+
+        />
+
+</LinearLayout>
